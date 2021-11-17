@@ -1,10 +1,10 @@
 import React from 'react';
 import { createGlobalStyle } from 'styled-components';
-import caviarFontEot from '../fonts/CaviarDreams-webfont.eot';
-import caviarFontWoof from '../fonts/CaviarDreams-webfont.woff';
-import caviarFontWoof2 from '../fonts/CaviarDreams-webfont.woff2';
-import caviarFontTtf from '../fonts/CaviarDreams-webfont.ttf';
-import caviarFontSvg from '../fonts/CaviarDreams-webfont.svg';
+import caviarFontEot from '../../fonts/CaviarDreams-webfont.eot';
+import caviarFontWoof from '../../fonts/CaviarDreams-webfont.woff';
+import caviarFontWoof2 from '../../fonts/CaviarDreams-webfont.woff2';
+import caviarFontTtf from '../../fonts/CaviarDreams-webfont.ttf';
+import caviarFontSvg from '../../fonts/CaviarDreams-webfont.svg';
 
 export const GlobalStyleProvider = ({ children }) => {
   return (
@@ -111,19 +111,7 @@ const GlobalStyle = createGlobalStyle`
     display: flex;
     flex-direction: column;
   }
-
-  /*Each of the child of #root must have this class*/
-  .main-padding {
-    width: 100%;
-    padding: 0 1rem;
-    @media only screen and (min-width: 20rem) {
-      padding: 0 calc(5% - (100vw - 100%)) 0 5%; /*(100vw-100%) on the padding-rigth allows the content to remain centred even in the presence of Y-scroolbar*/
-    }
-    @media only screen and (min-width: 90rem) {
-      padding: 0 calc((100% - 90rem * 0.9) / 2) 0 calc((100% - (100vw - 100%) - 90rem * 0.9) / 2); /*content never exceeds 90rem*/
-    }
-  }
-
+  
   .sr-only {
     border: 0;
     clip: rect(0 0 0 0);

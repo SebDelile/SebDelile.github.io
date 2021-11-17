@@ -1,14 +1,11 @@
 import * as React from 'react';
-import { GlobalStyleProvider } from '../utils/GlobalStyleProvider';
+import { Layout } from '../components/layout';
 
 const IndexPage = () => {
   return (
-    <GlobalStyleProvider>
-      <main>
-        <title>SebDelile</title>
-        <h1>Hello world !</h1>
-      </main>
-    </GlobalStyleProvider>
+    <Layout title="SebDelile">
+      <h1>Hello world !</h1>
+    </Layout>
   );
 };
 
