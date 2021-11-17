@@ -1,11 +1,13 @@
 import * as React from 'react';
 import styled from 'styled-components';
 import { mainPadding } from '../utils/style/mainPadding';
+import { SocialMedia } from './SocialMedia';
 
 export const Header = () => (
   <Wrapper>
     <Name>Sébastien Delile</Name>
     <Job> - développeur react.js</Job>
+    <SocialMedia />
     <LangSelection>
       {['fr', 'en'].map((lang) => (
         <option key={lang} value={lang}>

@@ -1,0 +1,26 @@
+[
+  {
+    "icon": "./socialMediaIcons/mail.svg",
+    "name": "mail",
+    "infobulle": "Envoyer un email",
+    "url": "mailto:sebastiendelile@gmail.com"
+  },
+  {
+    "icon": "./socialMediaIcons/linkedin.svg",
+    "name": "linkedin",
+    "infobulle": "Voir profil LinkedIn",
+    "url": "https://www.linkedin.com/in/s%C3%A9bastien-delile-450bbb143"
+  },
+  {
+    "icon": "./socialMediaIcons/github.svg",
+    "name": "github",
+    "infobulle": "Voir profil GitHub",
+    "url": "https://github.com/SebDelile"
+  },
+  {
+    "icon": "./socialMediaIcons/resume.svg",
+    "name": "resume",
+    "infobulle": "Voir le CV",
+    "url": "#"
+  }
+]
