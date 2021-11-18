@@ -1,6 +1,5 @@
 import * as React from 'react';
 import styled from 'styled-components';
-import { mainPadding } from '../utils/style/mainPadding';
 import { SocialMedia } from './SocialMedia';
 
 export const Header = () => (
@@ -19,11 +18,8 @@ export const Header = () => (
 );
 
 const Wrapper = styled.header`
-  ${mainPadding}
-
   position: sticky;
   top: 0;
-  width: 100%;
   display: grid;
   grid-template-columns: 1fr auto;
   grid-template-rows: auto auto;

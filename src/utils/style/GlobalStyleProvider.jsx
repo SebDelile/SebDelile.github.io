@@ -104,12 +104,8 @@ const GlobalStyle = createGlobalStyle`
     height: 100%;
   }
 
-  body{
-    min-width: 20rem;
-    background: var(--color-background);
-    overflow-y: auto;
-    display: flex;
-    flex-direction: column;
+  #___gatsby, #gatsby-focus-wrapper {
+    all: inherit;
   }
   
   .sr-only {
