@@ -4,7 +4,9 @@ import { SocialMedia } from './SocialMedia';
 
 export const Footer = () => (
   <Wrapper>
-    <Recipe>Page faite par mes soins en react.js compilé avec Gatsby.</Recipe>
+    <Recipe>
+      Page faite par mes soins en react.js puis générée avec Gatsby.
+    </Recipe>
     <Disclaimer>2021 - tous droit réservés.</Disclaimer>
     <FooterSocialMedia />
   </Wrapper>
@@ -42,25 +44,23 @@ const Wrapper = styled.footer`
 const Recipe = styled.p`
   grid-area: recipe;
   margin-top: 0.5rem;
+  text-align: center;
 
   @media only screen and (min-width: 48rem) {
     margin-top: 1rem;
   }
 `;
 
-const Dis = styled.p`
-  text-decoration: underline;
-`;
-
-const Disclaimer = styled(Dis)`
+const Disclaimer = styled.p`
   grid-area: disclaimer;
   margin-top: 0.5rem;
+  text-align: center;
 `;
 
 const FooterSocialMedia = styled(SocialMedia)`
   grid-area: social-media;
   width: 100%;
-  max-width: 26rem;
+  max-width: 22rem;
   justify-content: space-around;
 
   @media only screen and (min-width: 48rem) {
