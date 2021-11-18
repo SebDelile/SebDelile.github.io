@@ -2,7 +2,7 @@ import * as React from 'react';
 import styled from 'styled-components';
 import { useStaticQuery, graphql } from 'gatsby';
 
-export const SocialMedia = () => {
+export const SocialMedia = ({ className }) => {
   const socialMediaQuery = useStaticQuery(graphql`
     query SocialMediaQuery {
       allSocialMediaDataJson {
@@ -26,7 +26,7 @@ export const SocialMedia = () => {
   );
 
   return (
-    <Wrapper>
+    <Wrapper className={className}>
       {socialMediaData.map((media) => (
         <A
           key={media.id}
@@ -42,7 +42,7 @@ export const SocialMedia = () => {
   );
 };
 
-const Wrapper = styled.div`
+export const Wrapper = styled.div`
   grid-area: social-media;
   position: relative;
   right: 1rem;

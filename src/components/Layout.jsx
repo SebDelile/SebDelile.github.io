@@ -2,6 +2,7 @@ import * as React from 'react';
 import { GlobalStyleProvider } from '../utils/style/GlobalStyleProvider';
 import styled from 'styled-components';
 import { Header } from './Header';
+import { Footer } from './Footer';
 
 export const Layout = ({ children, title }) => (
   <>
@@ -10,6 +11,7 @@ export const Layout = ({ children, title }) => (
     <Wrapper>
       <Header />
       <Main>{children}</Main>
+      <Footer />
     </Wrapper>
   </>
 );
