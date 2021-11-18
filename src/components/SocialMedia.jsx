@@ -43,9 +43,6 @@ export const SocialMedia = ({ className }) => {
 };
 
 export const Wrapper = styled.div`
-  grid-area: social-media;
-  position: relative;
-  right: 1rem;
   display: flex;
   flex-direction: row;
   justify-content: center;

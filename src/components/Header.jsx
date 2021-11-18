@@ -6,7 +6,7 @@ export const Header = () => (
   <Wrapper>
     <Name>Sébastien Delile</Name>
     <Job> - développeur react.js</Job>
-    <SocialMedia />
+    <HeaderSocialMedia />
     <LangSelection>
       {['fr', 'en'].map((lang) => (
         <option key={lang} value={lang}>
@@ -70,4 +70,10 @@ const Job = styled.p`
 
 const LangSelection = styled.select`
   grid-area: lang-selection;
+`;
+
+const HeaderSocialMedia = styled(SocialMedia)`
+  grid-area: social-media;
+  position: relative;
+  right: 1rem;
 `;
