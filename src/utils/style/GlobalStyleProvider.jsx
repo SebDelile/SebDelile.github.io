@@ -83,6 +83,11 @@ const GlobalStyle = createGlobalStyle`
     --color-primary: #043B6B;
     --color-secondary: #DDDDDD;
     --color-background: #EEEEEE;
+
+    --boxshadow-main: 0 0 0.25rem 0.125rem rgba(0, 0, 0, 0.5);
+    --boxshadow-slight: 0 0 0.25rem rgba(0, 0, 0, 0.5);
+    --boxshadow-drop: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.5);
+
   }
 
   /* --------------------------------------------------

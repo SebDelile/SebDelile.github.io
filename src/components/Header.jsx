@@ -33,7 +33,7 @@ const Wrapper = styled.header`
   padding-top: 1rem;
   background: var(--color-primary);
   color: var(--color-secondary);
-  box-shadow: 0 0 0.25rem 0.125rem rgba(0, 0, 0, 0.5);
+  box-shadow: var(--boxshadow-main);
 
   @media only screen and (min-width: 30rem) {
     grid-template-columns: auto 1fr auto;
