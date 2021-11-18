@@ -3,11 +3,13 @@ import { GlobalStyleProvider } from '../utils/style/GlobalStyleProvider';
 import styled from 'styled-components';
 import { Header } from './Header';
 import { Footer } from './Footer';
+import { WorkInProgressBadge } from './WorkInProgressBadge';
 
 export const Layout = ({ children, title }) => (
   <>
     <GlobalStyleProvider />
     <title>{title}</title>
+    <WorkInProgressBadge />
     <Wrapper>
       <Header />
       <Main>{children}</Main>
