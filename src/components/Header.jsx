@@ -17,6 +17,8 @@ export const Header = () => (
   </Wrapper>
 );
 
+const breakpoints = ['30rem', '48rem'];
+
 const Wrapper = styled.header`
   position: sticky;
   top: 0;
@@ -35,7 +37,7 @@ const Wrapper = styled.header`
   color: var(--color-secondary);
   box-shadow: var(--boxshadow-main);
 
-  @media only screen and (min-width: 30rem) {
+  @media only screen and (min-width: ${breakpoints[0]}) {
     grid-template-columns: auto 1fr auto;
     grid-template-rows: auto auto;
     grid-template-areas:
@@ -43,7 +45,7 @@ const Wrapper = styled.header`
       'social-media social-media lang-selection';
   }
 
-  @media only screen and (min-width: 48rem) {
+  @media only screen and (min-width: ${breakpoints[1]}) {
     grid-template-columns: auto 1fr auto auto;
     grid-template-rows: auto;
     grid-template-areas: 'name job social-media lang-selection';
@@ -63,7 +65,7 @@ const Job = styled.p`
   font-size: 1.25rem;
   padding-left: 0.25rem;
 
-  @media only screen and (min-width: 30rem) {
+  @media only screen and (min-width: ${breakpoints[0]}) {
     display: block;
   }
 `;

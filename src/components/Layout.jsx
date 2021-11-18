@@ -18,6 +18,8 @@ export const Layout = ({ children, title }) => (
   </>
 );
 
+const breakpoints = ['20rem', '90rem'];
+
 const Wrapper = styled.div`
   height: 100%;
   min-width: 20rem;
@@ -31,12 +33,12 @@ const Wrapper = styled.div`
     padding-right: 1rem;
     flex-shrink: 0;
 
-    @media only screen and (min-width: 20rem) {
+    @media only screen and (min-width: ${breakpoints[0]}) {
       padding-left: calc(100vw * 0.05);
       padding-right: calc(100vw * 0.05 - (100vw - 100%));
       /* min-width 20rem : (100vw-100%) on the padding-rigth allows the content to remain centred even in the presence of Y-scroolbar*/
     }
-    @media only screen and (min-width: 90rem) {
+    @media only screen and (min-width: ${breakpoints[1]}) {
       padding-left: calc((100vw - 90rem * 0.9) / 2);
       padding-right: calc((100vw - 90rem * 0.9) / 2 - (100vw - 100%));
       /* min-width 90rem : content never exceeds 90rem*/

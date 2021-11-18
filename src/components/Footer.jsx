@@ -12,6 +12,8 @@ export const Footer = () => (
   </Wrapper>
 );
 
+const breakpoints = ['48rem'];
+
 const Wrapper = styled.footer`
   display: grid;
   grid-template-columns: auto;
@@ -30,7 +32,7 @@ const Wrapper = styled.footer`
   font-size: 0.75rem;
   overflow-x: hidden; /* infobull on minimal screenwidth could cause a uggly horizontal scrollbar to appear !*/
 
-  @media only screen and (min-width: 48rem) {
+  @media only screen and (min-width: ${breakpoints[0]}) {
     grid-template-columns: 1fr auto;
     grid-template-rows: repeat(2, auto);
     grid-template-areas:
@@ -46,7 +48,7 @@ const Recipe = styled.p`
   margin-top: 0.5rem;
   text-align: center;
 
-  @media only screen and (min-width: 48rem) {
+  @media only screen and (min-width: ${breakpoints[0]}) {
     margin-top: 1rem;
   }
 `;
@@ -63,7 +65,7 @@ const FooterSocialMedia = styled(SocialMedia)`
   max-width: 22rem;
   justify-content: space-around;
 
-  @media only screen and (min-width: 48rem) {
+  @media only screen and (min-width: ${breakpoints[0]}) {
     width: unset;
     justify-content: center;
     align-self: start;
