@@ -1,12 +1,12 @@
 import * as React from 'react';
 import { Banner } from '../components/Banner';
-import { Layout } from '../components/layout';
+import { PageLayout } from '../components/PageLayout';
 
 const IndexPage = () => {
   return (
-    <Layout title="SebDelile">
+    <PageLayout title="SebDelile">
       <Banner />
-    </Layout>
+    </PageLayout>
   );
 };
 

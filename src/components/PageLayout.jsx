@@ -5,7 +5,7 @@ import { Header } from './Header';
 import { Footer } from './Footer';
 import { WorkInProgressBadge } from './WorkInProgressBadge';
 
-export const Layout = ({ children, title }) => (
+export const PageLayout = ({ children, title }) => (
   <>
     <GlobalStyleProvider />
     <title>{title}</title>
