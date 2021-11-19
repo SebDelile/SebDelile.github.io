@@ -9,8 +9,8 @@ export const PageLayout = ({ children, title }) => (
   <>
     <GlobalStyleProvider />
     <title>{title}</title>
-    <WorkInProgressBadge />
     <Wrapper>
+      <WorkInProgressBadge />
       <Header />
       <Main>{children}</Main>
       <Footer />
@@ -21,14 +21,16 @@ export const PageLayout = ({ children, title }) => (
 const breakpoints = ['20rem', '90rem'];
 
 const Wrapper = styled.div`
-  height: 100%;
+  position: relative;
+  min-height: 100%;
   min-width: 20rem;
   background: var(--color-background);
-  overflow-y: auto;
   display: flex;
   flex-direction: column;
 
-  & > * {
+  & > header,
+  & > main,
+  & > footer {
     padding-left: 1rem;
     padding-right: 1rem;
     flex-shrink: 0;
