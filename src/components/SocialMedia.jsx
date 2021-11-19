@@ -6,24 +6,20 @@ export const SocialMedia = ({ className }) => {
   const socialMediaQuery = useStaticQuery(graphql`
     query SocialMediaQuery {
       allSocialMediaDataJson {
-        edges {
-          node {
-            icon {
-              publicURL
-            }
-            id
-            infobulle
-            name
-            url
+        nodes {
+          icon {
+            publicURL
           }
+          id
+          infobulle
+          name
+          url
         }
       }
     }
   `);
 
-  const socialMediaData = socialMediaQuery.allSocialMediaDataJson.edges.map(
-    (element) => element.node
-  );
+  const socialMediaData = socialMediaQuery.allSocialMediaDataJson.nodes;
 
   return (
     <Wrapper className={className}>
