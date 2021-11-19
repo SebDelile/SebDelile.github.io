@@ -32,6 +32,8 @@ export const Banner = () => {
       >
         <ContactIcon
           src={mailIconQuery.allSocialMediaDataJson.nodes[0].icon.publicURL}
+          alt="logo contact"
+          aria-hidden
         />
         {'Contact'}
       </Contact>
@@ -148,4 +150,5 @@ const Contact = styled.a`
 
 const ContactIcon = styled.img`
   width: 2.25rem;
+  height: 2.25rem;
 `;
