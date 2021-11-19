@@ -2,6 +2,7 @@ import * as React from 'react';
 import styled from 'styled-components';
 import { StaticImage } from 'gatsby-plugin-image';
 import { useStaticQuery, graphql } from 'gatsby';
+import { biggerOnHover } from '../utils/style/mixins';
 
 export const Banner = () => {
   const mailIconQuery = useStaticQuery(graphql`
@@ -138,6 +139,7 @@ const Contact = styled.a`
   color: var(--color-secondary);
   font-size: 1.5rem;
   box-shadow: var(--boxshadow-drop);
+  ${biggerOnHover};
 
   @media only screen and (min-width: ${breakpoints[0]}) {
     margin-top: 0rem;

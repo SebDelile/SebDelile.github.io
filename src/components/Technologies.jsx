@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { useStaticQuery, graphql } from 'gatsby';
 import { SectionLayout } from './SectionLayout';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
+import { biggerOnHover, dropshadowOnHover } from '../utils/style/mixins';
 
 export const Technologies = () => {
   const technoQuery = useStaticQuery(graphql`
@@ -101,12 +102,9 @@ const Card = styled.div`
   padding: 0.75rem;
   border-radius: 0.5rem;
   background: var(--color-secondary);
-  transition: all 400ms;
 
-  &:hover {
-    transform: scale(1.05);
-    box-shadow: var(--boxshadow-slight);
-  }
+  ${biggerOnHover}
+  ${dropshadowOnHover};
 `;
 
 const Name = styled.h3`
