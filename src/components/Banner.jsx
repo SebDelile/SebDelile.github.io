@@ -17,8 +17,6 @@ export const Banner = () => {
     }
   `);
 
-  console.log(mailIconQuery);
-
   return (
     <Wrapper>
       <ProfilePicWrapper>
@@ -43,7 +41,7 @@ export const Banner = () => {
 const breakpoints = ['57.5rem', '62.5rem', '75rem'];
 
 const Wrapper = styled.section`
-  margin-top: 1rem;
+  margin: 1.5rem 0;
   display: grid;
   grid-template-areas:
     'profile-pic'
@@ -75,7 +73,7 @@ const Wrapper = styled.section`
   }
 
   @media only screen and (min-width: ${breakpoints[2]}) {
-    margin-top: 2.5rem;
+    margin: 2rem 0;
     padding: 1rem 5rem;
     grid-template-columns: auto 1fr auto;
     grid-template-rows: repeat(2, auto);
