@@ -8,7 +8,7 @@ export const WorkInProgressBadge = () => (
 );
 
 const Wrapper = styled.div`
-  z-index: 100;
+  z-index: 200;
   position: fixed;
   top: calc(10rem / 1.414);
   right: 0;

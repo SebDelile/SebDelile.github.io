@@ -21,6 +21,7 @@ const breakpoints = ['30rem', '48rem'];
 
 const Wrapper = styled.header`
   position: sticky;
+  z-index: 100;
   top: 0;
   display: grid;
   grid-template-columns: 1fr auto;
