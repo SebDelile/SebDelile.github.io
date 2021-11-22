@@ -76,6 +76,10 @@
     "icon": "./technologiesIcons/nextjs.png"
   },
   {
+    "name": "Gimp",
+    "icon": "./technologiesIcons/gimp.png"
+  },
+  {
     "name": "Swagger",
     "icon": "./technologiesIcons/swagger.png"
   },
@@ -100,16 +104,16 @@
     "icon": "./technologiesIcons/tailwind.png"
   },
   {
-    "name": "Vanilla Js",
-    "icon": "./technologiesIcons/vanillajs.png"
-  },
-  {
     "name": "HTML 5",
     "icon": "./technologiesIcons/html5.png"
   },
   {
     "name": "CSS 3",
     "icon": "./technologiesIcons/css3.png"
+  },
+  {
+    "name": "Javascript",
+    "icon": "./technologiesIcons/js.png"
   },
   {
     "name": "MS office",
