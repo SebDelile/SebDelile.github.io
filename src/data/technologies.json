@@ -16,10 +16,6 @@
     "icon": "./technologiesIcons/jest.png"
   },
   {
-    "name": "TypeScript",
-    "icon": "./technologiesIcons/typescript.png"
-  },
-  {
     "name": "Styled-components",
     "icon": "./technologiesIcons/styledcomponents.png"
   },
@@ -72,10 +68,6 @@
     "icon": "./technologiesIcons/git.png"
   },
   {
-    "name": "Next.js",
-    "icon": "./technologiesIcons/nextjs.png"
-  },
-  {
     "name": "Gimp",
     "icon": "./technologiesIcons/gimp.png"
   },
@@ -92,16 +84,8 @@
     "icon": "./technologiesIcons/jira.png"
   },
   {
-    "name": "Storybook",
-    "icon": "./technologiesIcons/storybook.png"
-  },
-  {
     "name": "Netlify",
     "icon": "./technologiesIcons/netlify.png"
-  },
-  {
-    "name": "Tailwind",
-    "icon": "./technologiesIcons/tailwind.png"
   },
   {
     "name": "HTML 5",

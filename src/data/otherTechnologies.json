@@ -1,0 +1,18 @@
+[
+  {
+    "name": "TypeScript",
+    "icon": "./technologiesIcons/typescript.png"
+  },
+  {
+    "name": "Next.js",
+    "icon": "./technologiesIcons/nextjs.png"
+  },
+  {
+    "name": "Storybook",
+    "icon": "./technologiesIcons/storybook.png"
+  },
+  {
+    "name": "Tailwind",
+    "icon": "./technologiesIcons/tailwind.png"
+  }
+]
