@@ -8,7 +8,7 @@ export const Header = () => (
     <Job> - développeur react.js</Job>
     <HeaderSocialMedia />
     <LangSelection>
-      {['fr', 'en'].map((lang) => (
+      {['fr'].map((lang) => (
         <option key={lang} value={lang}>
           {lang}
         </option>
