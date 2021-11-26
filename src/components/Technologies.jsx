@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import { useStaticQuery, graphql } from 'gatsby';
 import { SectionLayout } from './SectionLayout';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
-import { biggerOnHover, dropshadowOnHover } from '../utils/style/mixins';
 
 export const Technologies = () => {
   const technoQuery = useStaticQuery(graphql`
@@ -28,7 +27,7 @@ export const Technologies = () => {
     <SectionLayout title="Technologies">
       <Grid>
         {technoData.map((techno) => (
-          <Card key={techno.id}>
+          <Card key={techno.id} tabIndex={0}>
             <GatsbyImage
               image={getImage(techno.icon)}
               alt={'logo' + techno.name}
@@ -72,7 +71,6 @@ const Grid = styled.article`
   column-gap: 1rem;
   justify-items: stretch;
   align-items: stretch;
-  margin-bottom: 1rem;
 
   @media only screen and (min-width: ${breakpoints[0]}) {
     ${gridLayout(3, 5)};
@@ -97,11 +95,16 @@ const Card = styled.div`
   align-items: center;
   padding: 0.75rem;
   border-radius: 0.5rem;
+
   & > div {
     margin: 1rem;
+    transition: transform var(--transition-duration);
   }
 
-  ${biggerOnHover}
+  &:hover > div,
+  &:focus > div {
+    transform: scale(1.1);
+  }
 `;
 
 const Name = styled.h3`

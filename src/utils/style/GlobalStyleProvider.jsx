@@ -88,6 +88,7 @@ const GlobalStyle = createGlobalStyle`
     --boxshadow-slight: 0 0 0.25rem rgba(0, 0, 0, 0.5);
     --boxshadow-drop: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.5);
 
+    --transition-duration: 250ms
   }
 
   /* --------------------------------------------------
