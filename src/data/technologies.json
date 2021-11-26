@@ -24,20 +24,8 @@
     "icon": "./technologiesIcons/github.png"
   },
   {
-    "name": "Express",
-    "icon": "./technologiesIcons/express.png"
-  },
-  {
     "name": "Cypress",
     "icon": "./technologiesIcons/cypress.png"
-  },
-  {
-    "name": "React-Router",
-    "icon": "./technologiesIcons/reactrouter.png"
-  },
-  {
-    "name": "Draw.io",
-    "icon": "./technologiesIcons/drawio.png"
   },
   {
     "name": "Docker",
@@ -62,45 +50,5 @@
   {
     "name": "Gatsby",
     "icon": "./technologiesIcons/gatsby.png"
-  },
-  {
-    "name": "Git",
-    "icon": "./technologiesIcons/git.png"
-  },
-  {
-    "name": "Gimp",
-    "icon": "./technologiesIcons/gimp.png"
-  },
-  {
-    "name": "Swagger",
-    "icon": "./technologiesIcons/swagger.png"
-  },
-  {
-    "name": "Trello",
-    "icon": "./technologiesIcons/trello.png"
-  },
-  {
-    "name": "Jira",
-    "icon": "./technologiesIcons/jira.png"
-  },
-  {
-    "name": "Netlify",
-    "icon": "./technologiesIcons/netlify.png"
-  },
-  {
-    "name": "HTML 5",
-    "icon": "./technologiesIcons/html5.png"
-  },
-  {
-    "name": "CSS 3",
-    "icon": "./technologiesIcons/css3.png"
-  },
-  {
-    "name": "Javascript",
-    "icon": "./technologiesIcons/js.png"
-  },
-  {
-    "name": "MS office",
-    "icon": "./technologiesIcons/msoffice.png"
   }
 ]
