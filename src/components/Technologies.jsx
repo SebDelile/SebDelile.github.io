@@ -22,7 +22,7 @@ export const Technologies = () => {
     }
   `);
 
-  const technoData = technoQuery.allTechnologiesJson.nodes.slice(0, 28);
+  const technoData = technoQuery.allTechnologiesJson.nodes;
 
   return (
     <SectionLayout title="Technologies">
@@ -44,7 +44,7 @@ export const Technologies = () => {
 const breakpoints = ['35rem', '55rem', '70rem', '85rem'];
 
 const gridLayout = (mainColumns, otherColumns) => {
-  const mainCount = mainColumns <= 3 ? 6 : mainColumns;
+  const mainCount = mainColumns === 2 ? 4 : mainColumns;
   const smallScreen = mainColumns <= 4;
   return `
     grid-template-columns: repeat(${
@@ -68,7 +68,8 @@ const Grid = styled.article`
   display: grid;
   ${gridLayout(2, 3)}
   grid-auto-rows: auto;
-  gap: 1rem;
+  row-gap: 0.25rem;
+  column-gap: 1rem;
   justify-items: stretch;
   align-items: stretch;
   margin-bottom: 1rem;
@@ -78,17 +79,13 @@ const Grid = styled.article`
   }
 
   @media only screen and (min-width: ${breakpoints[1]}) {
-    ${gridLayout(4, 7)};
+    ${gridLayout(4, 6)};
     margin-bottom: 1.25rem;
+    column-gap: 1.5rem;
   }
 
   @media only screen and (min-width: ${breakpoints[2]}) {
-    ${gridLayout(5, 9)};
-  }
-
-  @media only screen and (min-width: ${breakpoints[3]}) {
-    ${gridLayout(6, 11)};
-    margin-bottom: 1.5rem;
+    ${gridLayout(5, 8)};
   }
 `;
 
@@ -98,13 +95,13 @@ const Card = styled.div`
   grid-template-columns: auto;
   justify-items: center;
   align-items: center;
-  gap: 0.75rem;
   padding: 0.75rem;
   border-radius: 0.5rem;
-  background: var(--color-secondary);
+  & > div {
+    margin: 1rem;
+  }
 
   ${biggerOnHover}
-  ${dropshadowOnHover};
 `;
 
 const Name = styled.h3`
