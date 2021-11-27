@@ -1,0 +1,82 @@
+[
+  {
+    "dates": "2020 - actuel",
+    "icon": "./backgroundIcons/school.svg",
+    "title": "Formation développeur frontend React Redux (1 an)",
+    "description": [
+      "Formation entièrement à distance avec OpenClassRooms aboutissant à une spécialisation React Redux",
+      "Réalisation en autonomie de 14 projets simili professionnels sur une période d'environ 1 an avec un suivi hebdomadaire par un mentor développeur sénior.",
+      "Premier projet en HTML CSS from scratch, puis intégration de vanilla JS et enfin de framework avec React",
+      "Mise en pratique également de Redux, D3.js, Jest, Styled-components, Git / GitHub, Sass, Cypress, Bootstrap, jQuery, ainsi que de la gestion de projet en mode agile."
+    ]
+  },
+  {
+    "dates": "2017 - 2020",
+    "icon": "./backgroundIcons/job.svg",
+    "title": "Responsable de pôle R&D et CTO (3,5 ans)",
+    "description": [
+      "Poste de responsable de pôle dans une PME (Inovarion, Paris) fonctionnant sur le principe d'une ESN mais appliqué au domaine de la R&D, également CTO d'une start-up (LSee, Ajaccio) à partir de fin 2017.",
+      "Elaboration de méthodes de détection d'analytes dans des fluides biologiques par électrochimie en utilisant des techniques bio-inspirées.",
+      "Projet notable : développement d'un biocapteur pour la détection dans le sang de marqueurs de la lipolyse. Projet mené des phases de faisabilité jusqu'au développement industriel en passant par la rédaction du dossier de certification européenne dispositif médical de diagnostique in vitro."
+    ]
+  },
+  {
+    "dates": "2016 - 2017",
+    "icon": "./backgroundIcons/job.svg",
+    "title": "Ingénieur-chercheur (8 mois)",
+    "description": [
+      "Postdoctorant dans une PME (Valotec, Villejuif) en collaboration avec le laboratoire ITODYS (Université de Paris).",
+      "Travaux réalisés dans le cadre d'un projet européen de développement d'un pancréas artificiel.",
+      "Prise en charge des étapes de veille concurrentielle et de faisabilité du développement d'un biocapteur pour la mesure en continue du glucose par impression jet d'encre de transistors à effet de champ."
+    ]
+  },
+  {
+    "dates": "2015 - 2016",
+    "icon": "./backgroundIcons/job.svg",
+    "title": "Enseignant-chercheur (1 an)",
+    "description": [
+      "Attaché temporaire d'enseignement et de recherche au laboratoire LEM (Université de Paris).",
+      "Enseignements en travaux dirigés et travaux pratiques de chimie générale et cristallographie à des étudiants de L1 et L2.",
+      "Travaux de recherche sur la compréhension et la prédiction des interactions entre sondes redox et double-brin d’ADN appliqués à la qPCR électrochimique."
+    ]
+  },
+  {
+    "dates": "2014 - 2015",
+    "icon": "./backgroundIcons/job.svg",
+    "title": "Chercheur postdoctorant (6 mois)",
+    "description": [
+      "Postdoctorant à l'institut Pascal (Université Clermont Auvergne).",
+      "Détection électrochimique de l’acide acétique et autres acides gras volatils pour le monitoring du fonctionnement d’un bioréacteur enzymatique."
+    ]
+  },
+  {
+    "dates": "2010 - 2013",
+    "icon": "./backgroundIcons/job.svg",
+    "title": "Thèse de doctorat (3 ans)",
+    "description": [
+      "Doctorant de l'université de Tours et travaux réalisés au CEA (le Ripault, Monts) et à l'école nationale supérieure de chimie Paris (Paristech, Paris).",
+      "Sujet de thèse : détection électrochimique du nitrométhane pour un détecteur de traces d’explosifs par concentration en milieu liquide.",
+      "Optimisation de la méthode électrochimique de détection et intégration au sein d'un prototype de captation par nébulisation, complété par une étude mécanistique de la réaction mise en jeu par résonnance magnétique nucléaire."
+    ]
+  },
+  {
+    "dates": "2008 - 2010",
+    "icon": "./backgroundIcons/school.svg",
+    "title": "Master matériaux chimie microtechnologies (2 ans)",
+    "description": [
+      "Spécialité matériaux en couches minces et nouvelles technologies pour l'énergie (université de Tours).",
+      "Etude des propriétés physiques, chimiques et mécaniques des matériaux organiques et inorganiques, élaboration et caractérisation de matériaux en couches minces, technologies pour l’énergie (batteries, piles à combustible, photovoltaïques).",
+      "Stage de 7 mois sur la détection d’explosifs par colorimétrie et fluorescence, des qualifications en laboratoire jusqu'aux essais terrain (CEA le Ripault, Monts)."
+    ]
+  },
+  {
+    "dates": "2005 - 2008",
+    "icon": "./backgroundIcons/school.svg",
+    "title": "Licence de sciences de la matière (3 ans)",
+    "description": [
+      "Premiers semestres communs à toutes les spécialités, puis choix de la spécialité chimie (université de Tours).",
+      "Etude de la chimie organique, chimie inorganique, chimie analytique, électrochimie, thermodynamique chimique, cinétique réactionnelle, chimie quantique, chimie verte, cristallographie. Egalement des bases de physique, mathématiques et informatique pour la chimie.",
+      "Stage de 2 mois sur le broyage, mélange, conditionnement et contrôle qualité de poudres (AFT powders, Château-Renault)."
+    ]
+  }
+]
