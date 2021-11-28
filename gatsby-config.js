@@ -36,5 +36,18 @@ module.exports = {
         },
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: 'SebDelil',
+        short_name: 'GSebDelile',
+        start_url: '/',
+        background_color: '#eeeeee',
+        theme_color: '#043b6b',
+        display: 'minimal-ui',
+        icon: 'src/images/icon.png',
+        crossOrigin: `use-credentials`,
+      },
+    },
   ],
 };
