@@ -9,7 +9,7 @@
     "icon": "./socialMediaIcons/linkedin.svg",
     "name": "linkedin",
     "infobulle": "Voir profil LinkedIn",
-    "url": "https://www.linkedin.com/in/s%C3%A9bastien-delile-450bbb143"
+    "url": "www.linkedin.com/in/sebastien-delile"
   },
   {
     "icon": "./socialMediaIcons/github.svg",
@@ -21,6 +21,6 @@
     "icon": "./socialMediaIcons/resume.svg",
     "name": "resume",
     "infobulle": "Voir le CV",
-    "url": "#"
+    "url": "/CV-Sebastien-Delile-nov2021-fr.pdf"
   }
 ]
