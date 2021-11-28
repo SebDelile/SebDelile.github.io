@@ -5,7 +5,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 export function SearchEngineOptimization({ title, lang }) {
   const { site, file } = useStaticQuery(
     graphql`
-      query {
+      query metadata {
         file(relativePath: { eq: "profile-pic.jpg" }) {
           childImageSharp {
             resize {
