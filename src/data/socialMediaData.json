@@ -1,24 +1,24 @@
 [
   {
-    "icon": "./socialMediaIcons/mail.svg",
+    "icon": "../images/socialMediaIcons/mail.svg",
     "name": "mail",
     "infobulle": "Envoyer un email",
     "url": "mailto:sebastiendelile@gmail.com"
   },
   {
-    "icon": "./socialMediaIcons/linkedin.svg",
+    "icon": "../images/socialMediaIcons/linkedin.svg",
     "name": "linkedin",
     "infobulle": "Voir profil LinkedIn",
     "url": "www.linkedin.com/in/sebastien-delile"
   },
   {
-    "icon": "./socialMediaIcons/github.svg",
+    "icon": "../images/socialMediaIcons/github.svg",
     "name": "github",
     "infobulle": "Voir profil GitHub",
     "url": "https://github.com/SebDelile"
   },
   {
-    "icon": "./socialMediaIcons/resume.svg",
+    "icon": "../images/socialMediaIcons/resume.svg",
     "name": "resume",
     "infobulle": "Voir le CV",
     "url": "/CV-Sebastien-Delile-nov2021-fr.pdf"

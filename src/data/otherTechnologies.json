@@ -1,70 +1,70 @@
 [
   {
     "name": "Express",
-    "icon": "./technologiesIcons/express.png"
+    "icon": "../images/technologiesIcons/express.png"
   },
   {
     "name": "React-Router",
-    "icon": "./technologiesIcons/reactrouter.png"
+    "icon": "../images/technologiesIcons/reactrouter.png"
   },
   {
     "name": "Draw.io",
-    "icon": "./technologiesIcons/drawio.png"
+    "icon": "../images/technologiesIcons/drawio.png"
   },
   {
     "name": "Swagger",
-    "icon": "./technologiesIcons/swagger.png"
+    "icon": "../images/technologiesIcons/swagger.png"
   },
   {
     "name": "MS office",
-    "icon": "./technologiesIcons/msoffice.png"
+    "icon": "../images/technologiesIcons/msoffice.png"
   },
   {
     "name": "Git",
-    "icon": "./technologiesIcons/git.png"
+    "icon": "../images/technologiesIcons/git.png"
   },
   {
     "name": "Gimp",
-    "icon": "./technologiesIcons/gimp.png"
+    "icon": "../images/technologiesIcons/gimp.png"
   },
   {
     "name": "Trello",
-    "icon": "./technologiesIcons/trello.png"
+    "icon": "../images/technologiesIcons/trello.png"
   },
   {
     "name": "Jira",
-    "icon": "./technologiesIcons/jira.png"
+    "icon": "../images/technologiesIcons/jira.png"
   },
   {
     "name": "Netlify",
-    "icon": "./technologiesIcons/netlify.png"
+    "icon": "../images/technologiesIcons/netlify.png"
   },
   {
     "name": "HTML 5",
-    "icon": "./technologiesIcons/html5.png"
+    "icon": "../images/technologiesIcons/html5.png"
   },
   {
     "name": "CSS 3",
-    "icon": "./technologiesIcons/css3.png"
+    "icon": "../images/technologiesIcons/css3.png"
   },
   {
     "name": "Javascript",
-    "icon": "./technologiesIcons/js.png"
+    "icon": "../images/technologiesIcons/js.png"
   },
   {
     "name": "TypeScript",
-    "icon": "./technologiesIcons/typescript.png"
+    "icon": "../images/technologiesIcons/typescript.png"
   },
   {
     "name": "Next.js",
-    "icon": "./technologiesIcons/nextjs.png"
+    "icon": "../images/technologiesIcons/nextjs.png"
   },
   {
     "name": "Storybook",
-    "icon": "./technologiesIcons/storybook.png"
+    "icon": "../images/technologiesIcons/storybook.png"
   },
   {
     "name": "Tailwind",
-    "icon": "./technologiesIcons/tailwind.png"
+    "icon": "../images/technologiesIcons/tailwind.png"
   }
 ]

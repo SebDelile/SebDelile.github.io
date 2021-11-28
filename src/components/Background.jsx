@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { useStaticQuery, graphql } from 'gatsby';
 import { SectionLayout } from './SectionLayout';
 import { Dropdown } from './Dropdown';
-import iconArrow from '../data/backgroundIcons/arrow.svg';
+import iconArrow from '../images/assets/arrow.svg';
 
 export const Background = () => {
   const backgroundQuery = useStaticQuery(graphql`

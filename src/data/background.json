@@ -1,7 +1,7 @@
 [
   {
     "dates": "2020 - actuel",
-    "icon": "./backgroundIcons/school.svg",
+    "icon": "../images/backgroundIcons/school.svg",
     "title": "Formation développeur frontend React Redux (1 an)",
     "description": [
       "Formation entièrement à distance avec OpenClassRooms aboutissant à une spécialisation React Redux",
@@ -12,7 +12,7 @@
   },
   {
     "dates": "2017 - 2020",
-    "icon": "./backgroundIcons/job.svg",
+    "icon": "../images/backgroundIcons/job.svg",
     "title": "Responsable de pôle R&D et CTO (3,5 ans)",
     "description": [
       "Poste de responsable de pôle dans une PME (Inovarion, Paris) fonctionnant sur le principe d'une ESN mais appliqué au domaine de la R&D, également CTO d'une start-up (LSee, Ajaccio) à partir de fin 2017.",
@@ -22,7 +22,7 @@
   },
   {
     "dates": "2016 - 2017",
-    "icon": "./backgroundIcons/job.svg",
+    "icon": "../images/backgroundIcons/job.svg",
     "title": "Ingénieur-chercheur (8 mois)",
     "description": [
       "Postdoctorant dans une PME (Valotec, Villejuif) en collaboration avec le laboratoire ITODYS (Université de Paris).",
@@ -32,7 +32,7 @@
   },
   {
     "dates": "2015 - 2016",
-    "icon": "./backgroundIcons/job.svg",
+    "icon": "../images/backgroundIcons/job.svg",
     "title": "Enseignant-chercheur (1 an)",
     "description": [
       "Attaché temporaire d'enseignement et de recherche au laboratoire LEM (Université de Paris).",
@@ -42,7 +42,7 @@
   },
   {
     "dates": "2014 - 2015",
-    "icon": "./backgroundIcons/job.svg",
+    "icon": "../images/backgroundIcons/job.svg",
     "title": "Chercheur postdoctorant (6 mois)",
     "description": [
       "Postdoctorant à l'institut Pascal (Université Clermont Auvergne).",
@@ -51,7 +51,7 @@
   },
   {
     "dates": "2010 - 2013",
-    "icon": "./backgroundIcons/job.svg",
+    "icon": "../images/backgroundIcons/job.svg",
     "title": "Thèse de doctorat (3 ans)",
     "description": [
       "Doctorant de l'université de Tours et travaux réalisés au CEA (le Ripault, Monts) et à l'école nationale supérieure de chimie Paris (Paristech, Paris).",
@@ -61,7 +61,7 @@
   },
   {
     "dates": "2008 - 2010",
-    "icon": "./backgroundIcons/school.svg",
+    "icon": "../images/backgroundIcons/school.svg",
     "title": "Master matériaux chimie microtechnologies (2 ans)",
     "description": [
       "Spécialité matériaux en couches minces et nouvelles technologies pour l'énergie (université de Tours).",
@@ -71,7 +71,7 @@
   },
   {
     "dates": "2005 - 2008",
-    "icon": "./backgroundIcons/school.svg",
+    "icon": "../images/backgroundIcons/school.svg",
     "title": "Licence de sciences de la matière (3 ans)",
     "description": [
       "Premiers semestres communs à toutes les spécialités, puis choix de la spécialité chimie (université de Tours).",

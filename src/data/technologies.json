@@ -1,54 +1,54 @@
 [
   {
     "name": "React.js",
-    "icon": "./technologiesIcons/reactjs.png"
+    "icon": "../images/technologiesIcons/reactjs.png"
   },
   {
     "name": "Redux",
-    "icon": "./technologiesIcons/redux.png"
+    "icon": "../images/technologiesIcons/redux.png"
   },
   {
     "name": "D3.js",
-    "icon": "./technologiesIcons/d3js.png"
+    "icon": "../images/technologiesIcons/d3js.png"
   },
   {
     "name": "Jest",
-    "icon": "./technologiesIcons/jest.png"
+    "icon": "../images/technologiesIcons/jest.png"
   },
   {
     "name": "Styled-components",
-    "icon": "./technologiesIcons/styledcomponents.png"
+    "icon": "../images/technologiesIcons/styledcomponents.png"
   },
   {
     "name": "Github",
-    "icon": "./technologiesIcons/github.png"
+    "icon": "../images/technologiesIcons/github.png"
   },
   {
     "name": "Cypress",
-    "icon": "./technologiesIcons/cypress.png"
+    "icon": "../images/technologiesIcons/cypress.png"
   },
   {
     "name": "Docker",
-    "icon": "./technologiesIcons/docker.png"
+    "icon": "../images/technologiesIcons/docker.png"
   },
   {
     "name": "Sass",
-    "icon": "./technologiesIcons/sass.png"
+    "icon": "../images/technologiesIcons/sass.png"
   },
   {
     "name": "Axios",
-    "icon": "./technologiesIcons/axios.png"
+    "icon": "../images/technologiesIcons/axios.png"
   },
   {
     "name": "Figma",
-    "icon": "./technologiesIcons/figma.png"
+    "icon": "../images/technologiesIcons/figma.png"
   },
   {
     "name": "Testing-library",
-    "icon": "./technologiesIcons/testinglibrary.png"
+    "icon": "../images/technologiesIcons/testinglibrary.png"
   },
   {
     "name": "Gatsby",
-    "icon": "./technologiesIcons/gatsby.png"
+    "icon": "../images/technologiesIcons/gatsby.png"
   }
 ]
