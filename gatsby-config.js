@@ -2,6 +2,10 @@ module.exports = {
   siteMetadata: {
     siteUrl: 'https://sebdelile.github.io/',
     title: 'SebDelile',
+    description:
+      'the personnal page of Sébastien Delile, showing handled technologies, achievments and background',
+    author: 'Sébastien Delile',
+    keywords: 'developer, dev, web, react, frontend, portfolio',
   },
   plugins: [
     'gatsby-plugin-styled-components',
@@ -15,6 +19,13 @@ module.exports = {
       options: {
         name: 'data',
         path: `${__dirname}/src/data`,
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'images',
+        path: `${__dirname}/src/images`,
       },
     },
     {

@@ -4,11 +4,12 @@ import styled from 'styled-components';
 import { Header } from './Header';
 import { Footer } from './Footer';
 import { WorkInProgressBadge } from './WorkInProgressBadge';
+import { SearchEngineOptimization } from './SearchEngineOptimization';
 
 export const PageLayout = ({ children, title }) => (
   <>
     <GlobalStyleProvider />
-    <title>{title}</title>
+    <SearchEngineOptimization title={title} lang="fr" />
     <Wrapper>
       <WorkInProgressBadge />
       <Header />
