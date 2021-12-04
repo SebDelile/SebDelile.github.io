@@ -5,7 +5,7 @@ import { SocialMedia } from './SocialMedia';
 export const Footer = () => (
   <Wrapper>
     <Recipe>
-      Page faite par mes soins en react.js puis générée avec Gatsby.
+      Page faite par mes soins en React.js puis générée avec Gatsby.
     </Recipe>
     <Disclaimer>2021 - tous droits réservés.</Disclaimer>
     <FooterSocialMedia />

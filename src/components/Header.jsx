@@ -5,7 +5,7 @@ import { SocialMedia } from './SocialMedia';
 export const Header = () => (
   <Wrapper>
     <Name>Sébastien Delile</Name>
-    <Job> - développeur react.js</Job>
+    <Job> - développeur React.js</Job>
     <HeaderSocialMedia />
     <LangSelection>
       {['fr'].map((lang) => (

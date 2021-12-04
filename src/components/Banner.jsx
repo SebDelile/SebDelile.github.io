@@ -23,7 +23,7 @@ export const Banner = () => {
         <StaticImage src="../images/profile-pic.jpg" alt="photo de profil" />
       </ProfilePicWrapper>
       <Name>Sébastien Delile</Name>
-      <Job>Frontend web developer − React.js </Job>
+      <Job>Développeur web Frontend web − React.js </Job>
       <Contact
         href={mailIconQuery.allSocialMediaDataJson.nodes[0].url}
         target="_blank"
@@ -40,7 +40,7 @@ export const Banner = () => {
   );
 };
 
-const breakpoints = ['57.5rem', '62.5rem', '75rem'];
+const breakpoints = ['57.5rem', '62.5rem', '75rem', '80rem'];
 
 const Wrapper = styled.section`
   margin: 1.5rem 0;
@@ -123,6 +123,10 @@ const Job = styled.p`
   }
 
   @media only screen and (min-width: ${breakpoints[2]}) {
+    font-size: 1.5rem;
+  }
+
+  @media only screen and (min-width: ${breakpoints[3]}) {
     font-size: 1.75rem;
   }
 `;
