@@ -49,12 +49,12 @@ const gridLayout = (mainColumns, otherColumns) => {
     grid-template-columns: repeat(${
       mainColumns * otherColumns
     }, minmax(0, 1fr));
-    & > div:nth-child(-n+${mainCount}) {
+    & > li:nth-child(-n+${mainCount}) {
       grid-column: auto / span ${otherColumns};
       grid-template-rows: auto ${smallScreen ? '3.25rem' : '3.75rem'};
       font-size: ${smallScreen ? '1.25rem' : '1.5rem'};
     };
-    & > div:nth-child(n+${mainCount + 1}) {
+    & > li:nth-child(n+${mainCount + 1}) {
       grid-column: auto / span ${mainColumns};
       grid-template-rows: auto ${smallScreen ? '2rem' : '2.75rem'};
       font-size: 1rem;
@@ -62,7 +62,7 @@ const gridLayout = (mainColumns, otherColumns) => {
 `;
 };
 
-const Grid = styled.article`
+const Grid = styled.ul`
   width: 100%;
   display: grid;
   ${gridLayout(2, 3)}
@@ -87,7 +87,7 @@ const Grid = styled.article`
   }
 `;
 
-const Card = styled.div`
+const Card = styled.li`
   width: 100%;
   display: grid;
   grid-template-columns: auto;
