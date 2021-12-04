@@ -52,6 +52,10 @@
     "icon": "../images/technologiesIcons/js.png"
   },
   {
+    "name": "Emotion",
+    "icon": "../images/technologiesIcons/emotion.png"
+  },
+  {
     "name": "TypeScript",
     "icon": "../images/technologiesIcons/typescript.png"
   },
