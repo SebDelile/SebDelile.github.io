@@ -144,11 +144,15 @@ const Contact = styled.a`
   color: var(--color-secondary);
   font-size: 1.5rem;
   box-shadow: var(--boxshadow-drop);
-  transition: transform var(--transition-duration);
+  transition: all var(--transition-duration);
 
   &:hover,
   &:focus {
     transform: scale(1.05);
+  }
+
+  &:active {
+    box-shadow: var(--boxshadow-slight);
   }
 
   @media only screen and (min-width: ${breakpoints[0]}) {

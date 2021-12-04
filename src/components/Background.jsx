@@ -81,8 +81,13 @@ const StyledDropdown = styled(Dropdown)`
   row-gap: 0rem;
   border-radius: 0.5rem;
   background: var(--color-secondary);
+  transition: box-shadow var(--transition-duration);
 
-  &:hover {
+  &[aria-expanded='false']:hover {
+    box-shadow: var(--boxshadow-drop);
+  }
+
+  &[aria-expanded='true']:hover {
     box-shadow: var(--boxshadow-slight);
   }
 
