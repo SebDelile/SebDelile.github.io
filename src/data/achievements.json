@@ -1,0 +1,92 @@
+[
+  {
+    "date": "2021/07/01",
+    "thumbnail": "../images/achievementsThumbnails/kasa.png",
+    "image": "../images/achievementsImages/kasa.png",
+    "title": "Kasa",
+    "description": [
+      "Application d'annonces de location immobilière avec une galerie et des pages pour chaque bien.",
+      "Application réalisée en React avec Create-react-app et React-router, entièrement testée avec Jest, Testing-library et Cypress.",
+      "Mise en place d'une CLI avec GitHub action et d'un déploiement sur Netlify"
+    ],
+    "stack": ["React.js", "Jest", "Sass", "Cypress", "Github"],
+    "deployed": "https://sebdelile-ocr-p11-kasa.netlify.app/",
+    "repo": "https://github.com/SebDelile/SebastienDelile_11_08072021",
+    "type": "Projet étudiant"
+  },
+  {
+    "date": "2021/08/01",
+    "thumbnail": "../images/achievementsThumbnails/sportsee.png",
+    "image": "../images/achievementsImages/sportsee.png",
+    "title": "SportSee",
+    "description": [
+      "Page de profil d’une application sportive contenant un dashboard analytique avec plusieurs graphiques et dont les données sont récupérées sur une API.",
+      "Application réalisée en React avec Create-react-app et React-router. Les graphiques sont générés en svg avec D3.js et les appels à l'API sont faits avec Axios.",
+      "Docker et Docker-compose ont été mis en place afin de déployer des images de l'application (l'API n'est disponible qu'en local)."
+    ],
+    "stack": ["React.js", "D3.js", "Styled-components", "Axios", "Docker"],
+    "deployed": "https://sebdelile-ocr-p12-sportsee.netlify.app/",
+    "repo": "https://github.com/SebDelile/SebastienDelile_12_02082021",
+    "type": "Projet étudiant"
+  },
+  {
+    "date": "2021/10/01",
+    "thumbnail": "../images/achievementsThumbnails/marblebowl.png",
+    "image": "../images/achievementsImages/marblebowl.png",
+    "title": "MarbleBowl",
+    "description": [
+      "Projet communautaire de clicker game où l’utilisateur découvre les nouvelles fonctionnalités et feuilles de style à mesure de sa progression dans la narration.",
+      "Application réalisée en React avec Create-react-app. Etat global de l'application pris en charge par Redux avec redux-toolkits",
+      "Développement en méthodologie agile SCRUM avec des sprints de 3 semaines, kanban, code-review et planning poker."
+    ],
+    "stack": ["React.js", "Redux", "Jest", "Github"],
+    "deployed": "",
+    "repo": "https://github.com/SebDelile/marblebowl",
+    "type": "Projet communautaire"
+  },
+  {
+    "date": "2021/11/01",
+    "thumbnail": "../images/achievementsThumbnails/react-datatable.png",
+    "image": "../images/achievementsImages/react-datatable.png",
+    "title": "React datatable",
+    "description": [
+      "Plugin React de table de données offrant des fonctionnalités de pagination, de tri, de filtre et 2 méthodes de responsive (scroll horizontal ou info supplémentaires au clic).",
+      "Le plugin est créé avec Create-react-app et n'utilise qu'une dépendance supplémentaire : @Emotion/css pour gérer la personnalisation de style en CSS-in-JS.",
+      "Il est entièrement couvert par des tests unitaires et CLI mise en place avec Github action."
+    ],
+    "stack": ["React.js", "Jest", "Emotion", "Testing-library", "Github"],
+    "deployed": "",
+    "repo": "https://github.com/SebDelile/react-datatable-generator",
+    "type": "Projet étudiant"
+  },
+  {
+    "date": "2021/10/01",
+    "thumbnail": "../images/achievementsThumbnails/portfolio.png",
+    "image": "../images/achievementsImages/portfolio.png",
+    "title": "Portfolio",
+    "description": [
+      "Page web personnelle proposant un aperçu de mes préférences, de mes projets et de mon parcours.",
+      "Page réalisée en React et compilée avec Gatsby pour générer une page statique optimisée.",
+      "Utilisation de nombreux plugin Gatsby pour gérer les imports JSON, les images, les métadonnées, ..."
+    ],
+    "stack": ["React.js", "Gatsby", "Styled-components", "Figma"],
+    "deployed": "https://sebdelile.github.io/",
+    "repo": "https://github.com/SebDelile/SebDelile.github.io",
+    "type": "Projet personnel"
+  },
+  {
+    "date": "2021/03/01",
+    "thumbnail": "../images/achievementsThumbnails/les-petits-plats.png",
+    "image": "../images/achievementsImages/les-petits-plats.png",
+    "title": "Les petits plats",
+    "description": [
+      "Preuve de concept d'une page web de recette avec un moteur de recherche intégré par tags et/ou champ libre.",
+      "Production de 2 algorithmes pour la recherche avec les schémas logiques et comparaison de performances.",
+      "Page intégrée avec Bootstrap 4 et vanilla JS, utilisation de Sass pour personnaliser le thème bootstrap"
+    ],
+    "stack": ["HTML 5", "CSS 3", "Javascript", "Sass", "Bootstrap"],
+    "deployed": "https://sebdelile.github.io/SebastienDelile_07_02032021/",
+    "repo": "https://github.com/SebDelile/SebastienDelile_07_02032021",
+    "type": "Projet étudiant"
+  }
+]

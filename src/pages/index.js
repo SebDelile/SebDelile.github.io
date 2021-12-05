@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Achievements } from '../components/Achievements';
 import { Background } from '../components/Background';
 import { Banner } from '../components/Banner';
 import { PageLayout } from '../components/PageLayout';
@@ -9,6 +10,7 @@ const IndexPage = () => {
     <PageLayout title="SebDelile">
       <Banner />
       <Technologies />
+      <Achievements />
       <Background />
     </PageLayout>
   );
