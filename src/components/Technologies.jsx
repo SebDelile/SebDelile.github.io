@@ -21,7 +21,7 @@ export const Technologies = () => {
     }
   `);
 
-  const technoData = technoQuery.allTechnologiesJson.nodes;
+  const technoData = technoQuery.allTechnologiesJson.nodes.slice(0, 13);
 
   return (
     <SectionLayout title="Technologies">
