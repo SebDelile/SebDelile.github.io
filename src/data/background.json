@@ -1,12 +1,32 @@
 [
   {
-    "dates": "2020 - actuel",
+    "dates": "2023 - auj",
+    "icon": "../images/backgroundIcons/job.svg",
+    "title": "Developpeur front end React (en cours)",
+    "description": [
+      "Poste de développeur frontend React dans une PME (Tribun Health, Paris) proposant une solution de pathalogie numérique aux hopitaux.",
+      "Développement de l'interface front d'un visualisateur d'images de microscopie (plusieurs giga pixels) avec outils d'annotations et affichage des résultats d'analyse d'intelligence artificelle.",
+      "Features notables : augmentation de la couverture de test de l'application, reconstruction à la volée d'images fluo en fonction des paramètres luminosité/contraste/gamma de chaque canal."
+    ]
+  },
+  {
+    "dates": "2022 - 2023",
+    "icon": "../images/backgroundIcons/job.svg",
+    "title": "Developpeur front end React (1,5 ans)",
+    "description": [
+      "Poste de développeur frontend React dans une PME (Padam Mobility, Paris) proposant une solution de déploiement de transport à la demande.",
+      "Développement de l'interface front backoffice de l'application pour gérer la configuration des services et les réservations des usagers.",
+      "Features notables : migration de l'ensemble des cartes de l'application de Google Map vers Leaflet, mise en place d'un environnement de test Jest/Cypress."
+    ]
+  },
+  {
+    "dates": "2021",
     "icon": "../images/backgroundIcons/school.svg",
     "title": "Formation développeur frontend React Redux (1 an)",
     "description": [
-      "Formation entièrement à distance avec OpenClassRooms aboutissant à une spécialisation React Redux",
+      "Formation entièrement à distance avec OpenClassRooms aboutissant à une spécialisation React Redux.",
       "Réalisation en autonomie de 14 projets simili professionnels sur une période d'environ 1 an avec un suivi hebdomadaire par un mentor développeur sénior.",
-      "Premier projet en HTML CSS from scratch, puis intégration de vanilla JS et enfin de framework avec React",
+      "Premier projet en HTML CSS from scratch, puis intégration de vanilla JS et enfin de framework avec React.",
       "Mise en pratique également de Redux, D3.js, Jest, Styled-components, Git / GitHub, Sass, Cypress, Bootstrap, jQuery, ainsi que de la gestion de projet en mode agile."
     ]
   },

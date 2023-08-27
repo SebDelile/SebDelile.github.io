@@ -34,7 +34,10 @@ export const Achievements = () => {
     }
   `);
 
-  const achievementsData = achievementsQuery.allAchievementsJson.nodes;
+  const achievementsData = achievementsQuery.allAchievementsJson.nodes.slice(
+    0,
+    6
+  );
   const technoData = achievementsQuery.allTechnologiesJson.nodes;
 
   return (

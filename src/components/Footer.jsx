@@ -7,7 +7,7 @@ export const Footer = () => (
     <Recipe>
       Page faite par mes soins en React.js puis générée avec Gatsby.
     </Recipe>
-    <Disclaimer>2021 - tous droits réservés.</Disclaimer>
+    <Disclaimer>2023 - tous droits réservés.</Disclaimer>
     <FooterSocialMedia />
   </Wrapper>
 );

@@ -1,18 +1,31 @@
 [
   {
-    "date": "2021/07/01",
-    "thumbnail": "../images/achievementsThumbnails/kasa.png",
-    "image": "../images/achievementsImages/kasa.png",
-    "title": "Kasa",
+    "date": "2023/01/01",
+    "thumbnail": "../images/achievementsThumbnails/cdrf-wounds.png",
+    "image": "../images/achievementsImages/cdrf-wounds.png",
+    "title": "CDRF wounds",
     "description": [
-      "Application d'annonces de location immobilière avec une galerie et des pages pour chaque bien.",
-      "Application réalisée en React avec Create-react-app et React-router, entièrement testée avec Jest, Testing-library et Cypress.",
-      "Mise en place d'une CLI avec GitHub action et d'un déploiement sur Netlify"
+      "Application pour afficher les probabilité du résutlat de la lecture d’un tableau à partir d’un jet de dés et de paramètres d’entrée",
+      "Application réalisée en React Typescript avec Next.js, des composants Material UI et D3 pour les graphiques"
     ],
-    "stack": ["React.js", "Jest", "Sass", "Cypress", "Github"],
-    "deployed": "https://sebdelile-ocr-p11-kasa.netlify.app/",
-    "repo": "https://github.com/SebDelile/SebastienDelile_11_08072021",
-    "type": "Projet étudiant"
+    "stack": ["React.js", "Typescript", "Material UI", "D3.js", "Next.js"],
+    "deployed": "https://cdrf-wounds.vercel.app/",
+    "repo": "https://github.com/SebDelile/cdrf-wounds",
+    "type": "Projet personnel"
+  },
+  {
+    "date": "2022/03/01",
+    "thumbnail": "../images/achievementsThumbnails/hanzi.png",
+    "image": "../images/achievementsImages/hanzi.png",
+    "title": "Hanzi",
+    "description": [
+      "Application pour apprendre à écrire les caractère chinois, avec une liste de caractères et un système de quiz pour réviser.",
+      "Application réalisée en React avec Create-react-app, Typescript et des classes CSS utilitaires Tailwind"
+    ],
+    "stack": ["React.js", "Typescript", "Tailwind"],
+    "deployed": "https://sebdelile-hanzi.netlify.app/",
+    "repo": "https://github.com/SebDelile/hanzi",
+    "type": "Projet personnel"
   },
   {
     "date": "2021/08/01",
@@ -28,21 +41,6 @@
     "deployed": "https://sebdelile-ocr-p12-sportsee.netlify.app/",
     "repo": "https://github.com/SebDelile/SebastienDelile_12_02082021",
     "type": "Projet étudiant"
-  },
-  {
-    "date": "2021/10/01",
-    "thumbnail": "../images/achievementsThumbnails/marblebowl.png",
-    "image": "../images/achievementsImages/marblebowl.png",
-    "title": "MarbleBowl",
-    "description": [
-      "Projet communautaire de clicker game où l’utilisateur découvre les nouvelles fonctionnalités et feuilles de style à mesure de sa progression dans la narration.",
-      "Application réalisée en React avec Create-react-app. Etat global de l'application pris en charge par Redux avec redux-toolkits",
-      "Développement en méthodologie agile SCRUM avec des sprints de 3 semaines, kanban, code-review et planning poker."
-    ],
-    "stack": ["React.js", "Redux", "Jest", "Github"],
-    "deployed": "",
-    "repo": "https://github.com/SebDelile/marblebowl",
-    "type": "Projet communautaire"
   },
   {
     "date": "2021/11/01",
@@ -61,6 +59,21 @@
   },
   {
     "date": "2021/10/01",
+    "thumbnail": "../images/achievementsThumbnails/marblebowl.png",
+    "image": "../images/achievementsImages/marblebowl.png",
+    "title": "MarbleBowl",
+    "description": [
+      "Projet communautaire de clicker game où l’utilisateur découvre les nouvelles fonctionnalités et feuilles de style à mesure de sa progression dans la narration.",
+      "Application réalisée en React avec Create-react-app. Etat global de l'application pris en charge par Redux avec redux-toolkits",
+      "Développement en méthodologie agile SCRUM avec des sprints de 3 semaines, kanban, code-review et planning poker."
+    ],
+    "stack": ["React.js", "Redux", "Jest", "Github"],
+    "deployed": "",
+    "repo": "https://github.com/SebDelile/marblebowl",
+    "type": "Projet communautaire"
+  },
+  {
+    "date": "2021/10/01",
     "thumbnail": "../images/achievementsThumbnails/portfolio.png",
     "image": "../images/achievementsImages/portfolio.png",
     "title": "Portfolio",
@@ -73,6 +86,21 @@
     "deployed": "https://sebdelile.github.io/",
     "repo": "https://github.com/SebDelile/SebDelile.github.io",
     "type": "Projet personnel"
+  },
+  {
+    "date": "2021/07/01",
+    "thumbnail": "../images/achievementsThumbnails/kasa.png",
+    "image": "../images/achievementsImages/kasa.png",
+    "title": "Kasa",
+    "description": [
+      "Application d'annonces de location immobilière avec une galerie et des pages pour chaque bien.",
+      "Application réalisée en React avec Create-react-app et React-router, entièrement testée avec Jest, Testing-library et Cypress.",
+      "Mise en place d'une CLI avec GitHub action et d'un déploiement sur Netlify"
+    ],
+    "stack": ["React.js", "Jest", "Sass", "Cypress", "Github"],
+    "deployed": "https://sebdelile-ocr-p11-kasa.netlify.app/",
+    "repo": "https://github.com/SebDelile/SebastienDelile_11_08072021",
+    "type": "Projet étudiant"
   },
   {
     "date": "2021/03/01",

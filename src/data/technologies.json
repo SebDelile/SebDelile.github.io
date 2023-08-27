@@ -4,6 +4,10 @@
     "icon": "../images/technologiesIcons/reactjs.png"
   },
   {
+    "name": "Typescript",
+    "icon": "../images/technologiesIcons/typescript.png"
+  },
+  {
     "name": "Redux",
     "icon": "../images/technologiesIcons/redux.png"
   },
@@ -16,16 +20,36 @@
     "icon": "../images/technologiesIcons/jest.png"
   },
   {
-    "name": "Styled-components",
-    "icon": "../images/technologiesIcons/styledcomponents.png"
+    "name": "Tailwind",
+    "icon": "../images/technologiesIcons/tailwind.png"
   },
   {
-    "name": "Github",
-    "icon": "../images/technologiesIcons/github.png"
+    "name": "Testing-library",
+    "icon": "../images/technologiesIcons/testinglibrary.png"
+  },
+  {
+    "name": "Next.js",
+    "icon": "../images/technologiesIcons/nextjs.png"
+  },
+  {
+    "name": "Material UI",
+    "icon": "../images/technologiesIcons/mui.png"
   },
   {
     "name": "Cypress",
     "icon": "../images/technologiesIcons/cypress.png"
+  },
+  {
+    "name": "Jira",
+    "icon": "../images/technologiesIcons/jira.png"
+  },
+  {
+    "name": "Bootstrap",
+    "icon": "../images/technologiesIcons/bootstrap.png"
+  },
+  {
+    "name": "Emotion",
+    "icon": "../images/technologiesIcons/emotion.png"
   },
   {
     "name": "Docker",
@@ -36,16 +60,12 @@
     "icon": "../images/technologiesIcons/sass.png"
   },
   {
-    "name": "Axios",
-    "icon": "../images/technologiesIcons/axios.png"
-  },
-  {
     "name": "Figma",
     "icon": "../images/technologiesIcons/figma.png"
   },
   {
-    "name": "Testing-library",
-    "icon": "../images/technologiesIcons/testinglibrary.png"
+    "name": "Github",
+    "icon": "../images/technologiesIcons/github.png"
   },
   {
     "name": "Gatsby",
@@ -58,6 +78,14 @@
   {
     "name": "React-Router",
     "icon": "../images/technologiesIcons/reactrouter.png"
+  },
+  {
+    "name": "Styled-components",
+    "icon": "../images/technologiesIcons/styledcomponents.png"
+  },
+  {
+    "name": "Axios",
+    "icon": "../images/technologiesIcons/axios.png"
   },
   {
     "name": "Draw.io",
@@ -84,10 +112,6 @@
     "icon": "../images/technologiesIcons/trello.png"
   },
   {
-    "name": "Jira",
-    "icon": "../images/technologiesIcons/jira.png"
-  },
-  {
     "name": "Netlify",
     "icon": "../images/technologiesIcons/netlify.png"
   },
@@ -104,27 +128,7 @@
     "icon": "../images/technologiesIcons/js.png"
   },
   {
-    "name": "Emotion",
-    "icon": "../images/technologiesIcons/emotion.png"
-  },
-  {
-    "name": "TypeScript",
-    "icon": "../images/technologiesIcons/typescript.png"
-  },
-  {
-    "name": "Next.js",
-    "icon": "../images/technologiesIcons/nextjs.png"
-  },
-  {
     "name": "Storybook",
     "icon": "../images/technologiesIcons/storybook.png"
-  },
-  {
-    "name": "Bootstrap",
-    "icon": "../images/technologiesIcons/bootstrap.png"
-  },
-  {
-    "name": "Tailwind",
-    "icon": "../images/technologiesIcons/tailwind.png"
   }
 ]
