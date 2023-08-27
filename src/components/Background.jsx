@@ -176,7 +176,7 @@ const Arrow = styled.img`
   width: 1rem;
   height: 1rem;
   transition: transform var(--transition-duration);
-  transform: ${(props) => (props.isOpen ? 'rotate(0)' : 'rotate(180deg)')};
+  transform: ${(props) => (props.isOpen ? 'rotate(90deg)' : 'rotate(270deg)')};
 
   @media only screen and (min-width: ${breakpoints[0]}) {
     width: 1.5rem;

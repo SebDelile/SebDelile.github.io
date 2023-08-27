@@ -1,8 +1,7 @@
 [
   {
     "date": "2023/01/01",
-    "thumbnail": "../images/achievementsThumbnails/cdrf-wounds.png",
-    "image": "../images/achievementsImages/cdrf-wounds.png",
+    "thumbnail": "../images/achievements/cdrf-wounds.png",
     "title": "CDRF wounds",
     "description": [
       "Application pour afficher les probabilité du résutlat de la lecture d’un tableau à partir d’un jet de dés et de paramètres d’entrée",
@@ -15,8 +14,7 @@
   },
   {
     "date": "2022/03/01",
-    "thumbnail": "../images/achievementsThumbnails/hanzi.png",
-    "image": "../images/achievementsImages/hanzi.png",
+    "thumbnail": "../images/achievements/hanzi.png",
     "title": "Hanzi",
     "description": [
       "Application pour apprendre à écrire les caractère chinois, avec une liste de caractères et un système de quiz pour réviser.",
@@ -29,8 +27,7 @@
   },
   {
     "date": "2021/08/01",
-    "thumbnail": "../images/achievementsThumbnails/sportsee.png",
-    "image": "../images/achievementsImages/sportsee.png",
+    "thumbnail": "../images/achievements/sportsee.png",
     "title": "SportSee",
     "description": [
       "Page de profil d’une application sportive contenant un dashboard analytique avec plusieurs graphiques et dont les données sont récupérées sur une API.",
@@ -44,8 +41,7 @@
   },
   {
     "date": "2021/11/01",
-    "thumbnail": "../images/achievementsThumbnails/react-datatable.png",
-    "image": "../images/achievementsImages/react-datatable.png",
+    "thumbnail": "../images/achievements/react-datatable.png",
     "title": "React datatable",
     "description": [
       "Plugin React de table de données offrant des fonctionnalités de pagination, de tri, de filtre et 2 méthodes de responsive (scroll horizontal ou info supplémentaires au clic).",
@@ -59,8 +55,7 @@
   },
   {
     "date": "2021/10/01",
-    "thumbnail": "../images/achievementsThumbnails/marblebowl.png",
-    "image": "../images/achievementsImages/marblebowl.png",
+    "thumbnail": "../images/achievements/marblebowl.png",
     "title": "MarbleBowl",
     "description": [
       "Projet communautaire de clicker game où l’utilisateur découvre les nouvelles fonctionnalités et feuilles de style à mesure de sa progression dans la narration.",
@@ -74,8 +69,7 @@
   },
   {
     "date": "2021/10/01",
-    "thumbnail": "../images/achievementsThumbnails/portfolio.png",
-    "image": "../images/achievementsImages/portfolio.png",
+    "thumbnail": "../images/achievements/portfolio.png",
     "title": "Portfolio",
     "description": [
       "Page web personnelle proposant un aperçu de mes préférences, de mes projets et de mon parcours.",
@@ -89,8 +83,7 @@
   },
   {
     "date": "2021/07/01",
-    "thumbnail": "../images/achievementsThumbnails/kasa.png",
-    "image": "../images/achievementsImages/kasa.png",
+    "thumbnail": "../images/achievements/kasa.png",
     "title": "Kasa",
     "description": [
       "Application d'annonces de location immobilière avec une galerie et des pages pour chaque bien.",
@@ -104,8 +97,7 @@
   },
   {
     "date": "2021/03/01",
-    "thumbnail": "../images/achievementsThumbnails/les-petits-plats.png",
-    "image": "../images/achievementsImages/les-petits-plats.png",
+    "thumbnail": "../images/achievements/les-petits-plats.png",
     "title": "Les petits plats",
     "description": [
       "Preuve de concept d'une page web de recette avec un moteur de recherche intégré par tags et/ou champ libre.",

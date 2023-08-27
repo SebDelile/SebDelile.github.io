@@ -3,8 +3,12 @@ import styled from 'styled-components';
 import { useStaticQuery, graphql } from 'gatsby';
 import { SectionLayout } from './SectionLayout';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
+import { AchievementDialog } from './AchievementDialog';
+import { TechnoList } from './TechnoList';
 
 export const Achievements = () => {
+  const [selectedAchievement, setSelectedAchievement] = React.useState(null);
+
   const achievementsQuery = useStaticQuery(graphql`
     query achievementsQuery {
       allAchievementsJson {
@@ -12,21 +16,13 @@ export const Achievements = () => {
           id
           description
           repo
+          deployed
           stack
           title
+          type
           thumbnail {
             childImageSharp {
               gatsbyImageData
-            }
-          }
-        }
-      }
-      allTechnologiesJson {
-        nodes {
-          name
-          icon {
-            childImageSharp {
-              gatsbyImageData(placeholder: NONE)
             }
           }
         }
@@ -38,7 +34,27 @@ export const Achievements = () => {
     0,
     6
   );
-  const technoData = achievementsQuery.allTechnologiesJson.nodes;
+
+  const handleSelectNext = () => {
+    if (achievementsData && selectedAchievement) {
+      const index = achievementsData.findIndex(
+        ({ title }) => title === selectedAchievement.title
+      );
+      if (index === achievementsData.length - 1)
+        setSelectedAchievement(achievementsData[0]);
+      else setSelectedAchievement(achievementsData[index + 1]);
+    }
+  };
+  const handleSelectPrevious = () => {
+    if (achievementsData && selectedAchievement) {
+      const index = achievementsData.findIndex(
+        ({ title }) => title === selectedAchievement.title
+      );
+      if (index === 0)
+        setSelectedAchievement(achievementsData[achievementsData.length - 1]);
+      else setSelectedAchievement(achievementsData[index - 1]);
+    }
+  };
 
   return (
     <SectionLayout title="Réalisations">
@@ -46,9 +62,9 @@ export const Achievements = () => {
         {achievementsData.map((achievement) => (
           <ListItem key={achievement.id}>
             <Card
-              href={achievement.repo}
               target="_blank"
               rel="noopener noreferrer"
+              onClick={() => setSelectedAchievement(achievement)}
             >
               <GatsbyImage
                 image={getImage(achievement.thumbnail)}
@@ -56,20 +72,7 @@ export const Achievements = () => {
               />
               <Body>
                 <Title>{achievement.title}</Title>
-                <TechnoList>
-                  {achievement.stack.slice(0, 5).map((usedTechno) => (
-                    <Techno key={usedTechno}>
-                      <GatsbyImage
-                        image={getImage(
-                          technoData.find(
-                            (techno) => techno.name === usedTechno
-                          ).icon
-                        )}
-                        alt={'logo' + usedTechno}
-                      />
-                    </Techno>
-                  ))}
-                </TechnoList>
+                <TechnoList stack={achievement.stack} />
                 <Description data-content={achievement.description.join(' ')}>
                   {
                     achievement.description.join(
@@ -82,6 +85,12 @@ export const Achievements = () => {
           </ListItem>
         ))}
       </List>
+      <AchievementDialog
+        achievement={selectedAchievement}
+        onRequestClose={() => setSelectedAchievement(null)}
+        selectNext={handleSelectNext}
+        selectPrevious={handleSelectPrevious}
+      />
     </SectionLayout>
   );
 };
@@ -120,7 +129,7 @@ const ListItem = styled.li`
   height: 100%;
 `;
 
-const Card = styled.a`
+const Card = styled.button`
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -151,22 +160,6 @@ const Body = styled.div`
 
 const Title = styled.h3`
   font-size: 1.5rem;
-`;
-
-const TechnoList = styled.ul`
-  justify-self: stretch;
-  text-align: right;
-  height: 2.25rem;
-  overflow: hidden;
-`;
-
-const Techno = styled.li`
-  display: inline-block;
-  height: 2.25rem;
-  width: 2.25rem;
-  &:not(:first-of-type) {
-    margin-left: 0.75rem;
-  }
 `;
 
 const Description = styled.p`
